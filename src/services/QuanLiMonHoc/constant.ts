@@ -1,0 +1,1 @@
+export const SAMPLE_MON_HOC = [['Toán', 'Văn', 'Anh', 'Khoa học', 'Công nghệ']];
