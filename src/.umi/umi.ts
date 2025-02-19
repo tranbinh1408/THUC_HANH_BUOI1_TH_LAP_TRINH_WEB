@@ -5,8 +5,8 @@ import '../global.tsx';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from 'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/node_modules/@umijs/runtime';
-import { renderClient } from 'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/node_modules/@umijs/renderer-react/dist/index.js';
+import { ApplyPluginsType } from 'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/node_modules/@umijs/runtime';
+import { renderClient } from 'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/node_modules/@umijs/renderer-react/dist/index.js';
 import { getRoutes } from './core/routes';
 
 

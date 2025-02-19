@@ -8,3 +8,4 @@ declare module RandomUser {
 		balance: string;
 	}
 }
+

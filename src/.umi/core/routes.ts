@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React from 'react';
-import { ApplyPluginsType, dynamic } from 'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/node_modules/@umijs/runtime';
+import { ApplyPluginsType, dynamic } from 'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/node_modules/@umijs/runtime';
 import * as umiExports from './umiExports';
 import { plugin } from './plugin';
 import LoadingComponent from '@ant-design/pro-layout/es/PageLoading';
@@ -9,7 +9,7 @@ export function getRoutes() {
   const routes = [
   {
     "path": "/",
-    "component": dynamic({ loader: () => import(/* webpackChunkName: '.umi__plugin-layout__Layout' */'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/.umi/plugin-layout/Layout.tsx'), loading: LoadingComponent}),
+    "component": dynamic({ loader: () => import(/* webpackChunkName: '.umi__plugin-layout__Layout' */'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/.umi/plugin-layout/Layout.tsx'), loading: LoadingComponent}),
     "routes": [
       {
         "path": "/~demos/:uuid",
@@ -18,7 +18,7 @@ export function getRoutes() {
         "component": ((props) => dynamic({
           loader: async () => {
             const React = await import('react');
-            const { default: getDemoRenderArgs } = await import(/* webpackChunkName: 'dumi_demos' */ 'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/node_modules/@umijs/preset-dumi/lib/plugins/features/demo/getDemoRenderArgs');
+            const { default: getDemoRenderArgs } = await import(/* webpackChunkName: 'dumi_demos' */ 'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/node_modules/@umijs/preset-dumi/lib/plugins/features/demo/getDemoRenderArgs');
             const { default: Previewer } = await import(/* webpackChunkName: 'dumi_demos' */ 'dumi-theme-default/es/builtins/Previewer.js');
             const { usePrefersColor, context } = await import(/* webpackChunkName: 'dumi_demos' */ 'dumi/theme');
 
@@ -65,52 +65,57 @@ export function getRoutes() {
         "__dumiRoot": true,
         "layout": false,
         "path": "/~docs",
-        "wrappers": [dynamic({ loader: () => import(/* webpackChunkName: 'wrappers' */'../dumi/layout'), loading: LoadingComponent}), dynamic({ loader: () => import(/* webpackChunkName: 'wrappers' */'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/node_modules/dumi-theme-default/es/layout.js'), loading: LoadingComponent})],
+        "wrappers": [dynamic({ loader: () => import(/* webpackChunkName: 'wrappers' */'../dumi/layout'), loading: LoadingComponent}), dynamic({ loader: () => import(/* webpackChunkName: 'wrappers' */'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/node_modules/dumi-theme-default/es/layout.js'), loading: LoadingComponent})],
         "routes": [
           {
             "path": "/~docs",
-            "component": dynamic({ loader: () => import(/* webpackChunkName: 'README.md' */'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/README.md'), loading: LoadingComponent}),
+            "component": dynamic({ loader: () => import(/* webpackChunkName: 'README.md' */'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/README.md'), loading: LoadingComponent}),
             "exact": true,
             "meta": {
               "locale": "en-US",
               "order": null,
               "filePath": "README.md",
-              "updatedTime": 1739929801482,
+              "updatedTime": 1739935164000,
               "slugs": [
                 {
                   "depth": 1,
-                  "value": "WEB BASE V3",
-                  "heading": "web-base-v3"
+                  "value": "THỰC HÀNH LẬP TRINH WEB - THỰC HÀNH BUỔI 1",
+                  "heading": "thực-hành-lập-trinh-web---thực-hành-buổi-1"
                 },
                 {
-                  "depth": 2,
-                  "value": "Web base v3 based on:",
-                  "heading": "web-base-v3-based-on"
+                  "depth": 1,
+                  "value": "Thầy Phan Quang Thành",
+                  "heading": "thầy-phan-quang-thành"
                 },
                 {
-                  "depth": 2,
-                  "value": "Environment Prepare",
-                  "heading": "environment-prepare"
-                },
-                {
-                  "depth": 2,
-                  "value": "Provided Scripts",
-                  "heading": "provided-scripts"
+                  "depth": 1,
+                  "value": "👥 Thành viên nhóm",
+                  "heading": "-thành-viên-nhóm"
                 },
                 {
                   "depth": 3,
-                  "value": "Start project",
-                  "heading": "start-project"
+                  "value": "Cách chơi",
+                  "heading": "cách-chơi"
+                },
+                {
+                  "depth": 2,
+                  "value": "📚 Quản Lý Học Tập",
+                  "heading": "-quản-lý-học-tập"
                 },
                 {
                   "depth": 3,
-                  "value": "Build project",
-                  "heading": "build-project"
+                  "value": "Tính năng chính",
+                  "heading": "tính-năng-chính"
+                },
+                {
+                  "depth": 2,
+                  "value": "Hướng dẫn sử dụng",
+                  "heading": "hướng-dẫn-sử-dụng"
                 }
               ],
-              "title": "WEB BASE V3"
+              "title": "THỰC HÀNH LẬP TRINH WEB - THỰC HÀNH BUỔI 1"
             },
-            "title": "WEB BASE V3"
+            "title": "THỰC HÀNH LẬP TRINH WEB - THỰC HÀNH BUỔI 1"
           }
         ],
         "title": "ant-design-pro",
@@ -124,7 +129,7 @@ export function getRoutes() {
             "path": "/user/login",
             "layout": false,
             "name": "login",
-            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__user__Login' */'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/pages/user/Login'), loading: LoadingComponent}),
+            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__user__Login' */'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/pages/user/Login'), loading: LoadingComponent}),
             "exact": true
           },
           {
@@ -137,29 +142,36 @@ export function getRoutes() {
       {
         "path": "/dashboard",
         "name": "Dashboard",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__TrangChu' */'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/pages/TrangChu'), loading: LoadingComponent}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__TrangChu' */'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/pages/TrangChu'), loading: LoadingComponent}),
         "icon": "HomeOutlined",
         "exact": true
       },
       {
         "path": "/gioi-thieu",
         "name": "About",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__TienIch__GioiThieu' */'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/pages/TienIch/GioiThieu'), loading: LoadingComponent}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__TienIch__GioiThieu' */'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/pages/TienIch/GioiThieu'), loading: LoadingComponent}),
         "hideInMenu": true,
         "exact": true
       },
       {
         "path": "/random-user",
         "name": "RandomUser",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__RandomUser' */'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/pages/RandomUser'), loading: LoadingComponent}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__RandomUser' */'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/pages/RandomUser'), loading: LoadingComponent}),
         "icon": "ArrowsAltOutlined",
         "exact": true
       },
       {
         "path": "/game",
         "name": "Game",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__Game__GuessNumber' */'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/pages/Game/GuessNumber'), loading: LoadingComponent}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__Game__GuessNumber' */'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/pages/Game/GuessNumber'), loading: LoadingComponent}),
         "icon": "PlayCircleOutlined",
+        "exact": true
+      },
+      {
+        "path": "/quan-li-mon-hoc",
+        "name": "Quản lí môn học",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__QuanLiMonHoc' */'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/pages/QuanLiMonHoc'), loading: LoadingComponent}),
+        "icon": "BookOutlined",
         "exact": true
       },
       {
@@ -168,17 +180,17 @@ export function getRoutes() {
           {
             "path": "/notification/subscribe",
             "exact": true,
-            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__ThongBao__Subscribe' */'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/pages/ThongBao/Subscribe'), loading: LoadingComponent})
+            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__ThongBao__Subscribe' */'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/pages/ThongBao/Subscribe'), loading: LoadingComponent})
           },
           {
             "path": "/notification/check",
             "exact": true,
-            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__ThongBao__Check' */'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/pages/ThongBao/Check'), loading: LoadingComponent})
+            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__ThongBao__Check' */'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/pages/ThongBao/Check'), loading: LoadingComponent})
           },
           {
             "path": "/notification/",
             "exact": true,
-            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__ThongBao__NotifOneSignal' */'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/pages/ThongBao/NotifOneSignal'), loading: LoadingComponent})
+            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__ThongBao__NotifOneSignal' */'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/pages/ThongBao/NotifOneSignal'), loading: LoadingComponent})
           }
         ],
         "layout": false,
@@ -194,18 +206,18 @@ export function getRoutes() {
       },
       {
         "path": "/403",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__exception__403__403Page' */'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/pages/exception/403/403Page'), loading: LoadingComponent}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__exception__403__403Page' */'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/pages/exception/403/403Page'), loading: LoadingComponent}),
         "layout": false,
         "exact": true
       },
       {
         "path": "/hold-on",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__exception__DangCapNhat' */'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/pages/exception/DangCapNhat'), loading: LoadingComponent}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__exception__DangCapNhat' */'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/pages/exception/DangCapNhat'), loading: LoadingComponent}),
         "layout": false,
         "exact": true
       },
       {
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__exception__404' */'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/pages/exception/404'), loading: LoadingComponent}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__exception__404' */'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/pages/exception/404'), loading: LoadingComponent}),
         "exact": true
       }
     ]

@@ -12,6 +12,9 @@ const ipSlink = ipRoot + 'slink'; // ip dev
 const currentRole = EModuleKey.CONNECT;
 const oneSignalRole = EModuleKey.CONNECT;
 
+// Thuc hanh
+const DUMMY_TODO = 'https://dummyjson.com/todos';
+
 // DO NOT TOUCH
 const keycloakClientID = AppModules[currentRole].clientId;
 const keycloakAuthority = APP_CONFIG_KEYCLOAK_AUTHORITY;
@@ -36,4 +39,5 @@ export {
 	keycloakAuthority,
 	sentryDSN,
 	oneSignalClient,
+	DUMMY_TODO,
 };
