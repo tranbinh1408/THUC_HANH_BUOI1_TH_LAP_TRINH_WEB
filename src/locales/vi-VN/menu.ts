@@ -10,4 +10,5 @@ export default {
 	'menu.DanhMuc.ChucVu': 'Chức vụ',
 	'menu.Game': 'Trò chơi đoán số',
 	'menu.Game.GuessNumber': 'Đoán số',
+	'menu.SubjectManagement': 'Quản lý môn học',
 };

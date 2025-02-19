@@ -163,6 +163,13 @@ export function getRoutes() {
         "exact": true
       },
       {
+        "path": "/subject-management",
+        "name": "SubjectManagement",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__SubjectManagement' */'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/pages/SubjectManagement'), loading: LoadingComponent}),
+        "icon": "BookOutlined",
+        "exact": true
+      },
+      {
         "path": "/notification",
         "routes": [
           {
