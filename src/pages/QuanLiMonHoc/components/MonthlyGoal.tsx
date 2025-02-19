@@ -11,9 +11,10 @@ const MonthlyGoals = ({ goals, setGoals, progress, subject }: QuanLiMonHoc.IMont
 	const calculateProgress = () => {
 		const goal = goals[subject] || 0;
 		const totalDuration = progress
-			.filter((item) => item.subject === subject && moment(item.date).isSame(moment(), 'month'))
+			.filter((item) => item.subject === subject && 
+				moment(item.date, 'DD-MM-YYYY').isSame(moment(), 'month'))
 			.reduce((sum, item) => sum + parseInt(item.duration), 0);
-		return Math.min(Math.round((totalDuration / (goal * 60)) * 100), 100);
+		return Math.min(Math.round((totalDuration / 60) / goal * 100), 100);
 	};
 
 	return (

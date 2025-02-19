@@ -51,11 +51,12 @@ const SubjectList = ({ subjects, setSubjects, setSelectedSubject }: QuanLiMonHoc
 			key: 'action',
 			render: (_: any, record: { subject: string }) => (
 				<div
-					style={{
-						display: 'flex',
-						justifyItems: 'center',
-						width: 'full',
-					}}
+				style={{
+					display: 'flex',
+					justifyContent: 'center', 
+					alignItems: 'center',    
+					width: '100%'            
+				}}
 				>
 					<Button icon={<EditOutlined />} onClick={(e) => showModal(record.subject, e)} style={{ marginRight: 8 }}>
 						Sửa

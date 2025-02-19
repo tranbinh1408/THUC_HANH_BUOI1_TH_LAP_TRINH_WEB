@@ -1,17 +1,19 @@
+import { SAMPLE_GOAL, SAMPLE_PROGRESS, SAMPLE_SUBJECT } from '@/services/QuanLiMonHoc/constant';
 import { loadFromLocalStorage, saveToLocalStorage } from '@/utils/localStorage';
 import { useEffect, useState } from 'react';
 import MonthlyGoals from './components/MonthlyGoal';
 import StudyProgressList from './components/StudyProgressList';
 import SubjectList from './components/SubjectList';
-import { SAMPLE_MON_HOC } from '@/services/QuanLiMonHoc/constant';
 
 const QuanLiMonHoc = () => {
-	const [subjects, setSubjects] = useState<string[]>(() =>
-		loadFromLocalStorage('subjects', SAMPLE_MON_HOC),
+	const [subjects, setSubjects] = useState<string[]>(() => loadFromLocalStorage('subjects', SAMPLE_SUBJECT));
+	const [selectedSubject, setSelectedSubject] = useState<string | null>(() =>
+		loadFromLocalStorage('selectedSubject', null),
 	);
-	const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
-	const [studyProgress, setStudyProgress] = useState<any[]>(() => loadFromLocalStorage('studyProgress', []));
-	const [monthlyGoals, setMonthlyGoals] = useState<any>(() => loadFromLocalStorage('monthlyGoals', {}));
+	const [studyProgress, setStudyProgress] = useState<any[]>(() =>
+		loadFromLocalStorage('studyProgress', SAMPLE_PROGRESS),
+	);
+	const [monthlyGoals, setMonthlyGoals] = useState<any>(() => loadFromLocalStorage('monthlyGoals', SAMPLE_GOAL));
 
 	useEffect(() => {
 		saveToLocalStorage('subjects', subjects);

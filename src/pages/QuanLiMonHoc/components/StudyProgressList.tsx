@@ -21,9 +21,18 @@ const StudyProgressList = ({
 			title: 'Thao tác',
 			key: 'action',
 			render: (_text: string, record: any) => (
-				<Button onClick={() => handleDelete(record.key)} danger>
-					Xóa
-				</Button>
+				<div
+					style={{
+						display: 'flex',
+						justifyContent: 'center',
+						alignItems: 'center',
+						width: '100%',
+					}}
+				>
+					<Button onClick={() => handleDelete(record.key)} danger>
+						Xóa
+					</Button>
+				</div>
 			),
 		},
 	];
@@ -36,7 +45,7 @@ const StudyProgressList = ({
 		const newProgress = {
 			key: Date.now().toString(),
 			subject,
-			date: values.date.format('DD-MM-YYYY'),
+			date: values.date.format('YY-MM-DDDD'),
 			time: values.time.format('HH:mm'),
 			duration: values.duration,
 			content: values.content,
