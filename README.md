@@ -1,12 +1,12 @@
-# THỰC HÀNH LẬP TRINH WEB
-# THỰC HÀNH BUỔI 1 - Thầy Phan Quang Thành
+# THỰC HÀNH LẬP TRINH WEB - THỰC HÀNH BUỔI 1 
+# Thầy Phan Quang Thành
 # 👥 Thành viên nhóm
 | STT | Họ và tên | Mã sinh viên |
 |:---:|-----------|--------------|
-| 1 | [Trần Thị Bình] | [B23DCCC018] | 
-| 2 | [Nguyễn Hữu Nam] | [B23DCCC121] | 
-| 3 | [Nguyễn Trường Giang] | [B23DCCC055] | 
-| 4 | [Nguyễn Đình Đạt] | [B23DCCC032] | 
+| 1 | Trần Thị Bình | B23DCCC018 | 
+| 2 | Nguyễn Hữu Nam | B23DCCC121 | 
+| 3 | Nguyễn Trường Giang | B23DCCC055 | 
+| 4 | Nguyễn Đình Đạt | B23DCCC032 | 
 ## 🎮 Game Đoán Số
 ### Tính năng
 - Sinh số ngẫu nhiên từ 1-100
