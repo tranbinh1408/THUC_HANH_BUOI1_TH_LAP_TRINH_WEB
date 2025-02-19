@@ -8,4 +8,6 @@ export default {
 
 	'menu.DanhMuc': 'Danh mục',
 	'menu.DanhMuc.ChucVu': 'Chức vụ',
+	'menu.Game': 'Trò chơi đoán số',
+	'menu.Game.GuessNumber': 'Đoán số',
 };

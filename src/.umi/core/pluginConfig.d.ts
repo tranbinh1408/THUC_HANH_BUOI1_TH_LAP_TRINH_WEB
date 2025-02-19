@@ -358,5 +358,8 @@ customFunctionName?: (() => any)
 customClassName?: (() => any)
 }
 })
+inspectorConfig?: {
+
+}
 [k: string]: any
 }

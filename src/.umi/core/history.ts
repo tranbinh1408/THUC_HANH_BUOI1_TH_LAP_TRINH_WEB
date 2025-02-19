@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { createBrowserHistory, History } from 'C:/Users/ADMIN/Documents/GitHub/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/baseltw/node_modules/@umijs/runtime';
+import { createBrowserHistory, History } from 'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/node_modules/@umijs/runtime';
 
 let options = {
   "basename": "/"
