@@ -1,17 +1,17 @@
 // @ts-nocheck
 import React from 'react';
-import initialState from 'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/.umi/plugin-initial-state/models/initialState';
-import model0 from "C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/models/danhmuc/chucvu";
-import model1 from "C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/models/import";
-import model2 from "C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/models/randomuser";
-import model3 from "C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/models/thongbao/nhansu";
-import model4 from "C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/models/thongbao/noticeicon";
-import model5 from "C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/models/thongbao/receiver";
-import model6 from "C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/models/thongbao/sinhvien";
-import model7 from "C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/models/thongbao/thongbao";
-import model8 from "C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/models/tienich/auditlog";
-import model9 from "C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/models/tienich/caidat";
-import model10 from "C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/models/tienich/phanhoi";
+import initialState from 'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/.umi/plugin-initial-state/models/initialState';
+import model0 from "C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/models/danhmuc/chucvu";
+import model1 from "C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/models/import";
+import model2 from "C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/models/randomuser";
+import model3 from "C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/models/thongbao/nhansu";
+import model4 from "C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/models/thongbao/noticeicon";
+import model5 from "C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/models/thongbao/receiver";
+import model6 from "C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/models/thongbao/sinhvien";
+import model7 from "C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/models/thongbao/thongbao";
+import model8 from "C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/models/tienich/auditlog";
+import model9 from "C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/models/tienich/caidat";
+import model10 from "C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/models/tienich/phanhoi";
 // @ts-ignore
 import Dispatcher from './helpers/dispatcher';
 // @ts-ignore

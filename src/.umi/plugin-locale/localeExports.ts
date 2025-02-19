@@ -3,11 +3,11 @@ import {
   createIntl,
   IntlShape,
   MessageDescriptor,
-} from 'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/node_modules/@umijs/plugin-locale/node_modules/react-intl';
+} from 'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/node_modules/@umijs/plugin-locale/node_modules/react-intl';
 import { ApplyPluginsType } from 'umi';
 import { event, LANG_CHANGE_EVENT } from './locale';
 // @ts-ignore
-import warning from 'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/node_modules/warning/warning.js';
+import warning from 'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/node_modules/warning/warning.js';
 
 import { plugin } from '../core/plugin';
 
@@ -34,16 +34,16 @@ export {
   defineMessages,
   injectIntl,
   useIntl,
-} from 'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/node_modules/@umijs/plugin-locale/node_modules/react-intl';
+} from 'C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/node_modules/@umijs/plugin-locale/node_modules/react-intl';
 
 let g_intl: IntlShape;
 
 const useLocalStorage = true;
 
 import enUS0 from 'antd/es/locale/en_US';
-import lang_enUS0 from "C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/locales/en-US.ts";
+import lang_enUS0 from "C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/locales/en-US.ts";
 import viVN0 from 'antd/es/locale/vi_VN';
-import lang_viVN0 from "C:/Users/ASUS/Documents/Gitlab/Nhom19.2/src/locales/vi-VN.ts";
+import lang_viVN0 from "C:/Users/ASUS/Documents/Gitlab/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/src/locales/vi-VN.ts";
 
 export const localeInfo: {[key: string]: any} = {
   'en-US': {

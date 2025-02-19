@@ -42,6 +42,12 @@
 		component: './Game/GuessNumber',
 		icon: 'PlayCircleOutlined',
 	},
+	{
+		path: '/quan-li-mon-hoc',
+		name: 'Quản lí môn học',
+		component: './QuanLiMonHoc',
+		icon: "BookOutlined",
+	},
 
 	// DANH MUC HE THONG
 	// {
