@@ -4,12 +4,13 @@ import { GameConsole } from '@ant-design/icons';
 
 const { Title, Text } = Typography;
 
-const GuessNumber = () => {
+const GuessNumber = () => {    
   const [randomNumber, setRandomNumber] = useState<number>(0);
   const [guess, setGuess] = useState<string>('');
   const [attempts, setAttempts] = useState<number>(10);
   const [gameOver, setGameOver] = useState<boolean>(false);
   const [gameMessage, setGameMessage] = useState<string>('');
+  console.log(randomNumber);
 
   // Khởi tạo game mới
   const initGame = () => {
