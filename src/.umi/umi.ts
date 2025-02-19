@@ -1,11 +1,12 @@
 // @ts-nocheck
 import './core/polyfill';
+import '@@/core/devScripts';
 import '../global.tsx';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from 'C:/Users/ADMIN/Documents/GitHub/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/baseltw/node_modules/@umijs/runtime';
-import { renderClient } from 'C:/Users/ADMIN/Documents/GitHub/THUC_HANH_BUOI1_TH_LAP_TRINH_WEB/baseltw/node_modules/@umijs/renderer-react/dist/index.js';
+import { ApplyPluginsType } from 'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/node_modules/@umijs/runtime';
+import { renderClient } from 'C:/Users/ASUS/Documents/Gitlab/Nhom19.2/node_modules/@umijs/renderer-react/dist/index.js';
 import { getRoutes } from './core/routes';
 
 

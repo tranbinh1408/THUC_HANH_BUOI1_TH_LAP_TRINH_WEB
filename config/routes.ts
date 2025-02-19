@@ -36,6 +36,12 @@
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
+	{
+		path: '/game',
+		name: 'Game',
+		component: './Game/GuessNumber',
+		icon: 'PlayCircleOutlined',
+	},
 
 	// DANH MUC HE THONG
 	// {
@@ -89,4 +95,5 @@
 	{
 		component: './exception/404',
 	},
+	
 ];
